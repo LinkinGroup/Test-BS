@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  Test-BS
+//
+//  Created by 郑博辰 on 16/4/7.
+//  Copyright © 2016年 com.link. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+LINKExtension.h"
+
+#import "UIBarButtonItem+LINKExtension.h"
+
+
+#ifdef DEBUG
+#define JKLog(...) NSLog(__VA_ARGS__)
+#else
+#define JKLog(...)
+#endif
+
+#define JKLogFunction JKLog(@"%s", __func__)
+
+#define XMGRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define XMGGlobalBg XMGRGBColor(223, 223, 223)
+
+#endif /* PrefixHeader_pch */
