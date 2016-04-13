@@ -28,7 +28,6 @@
         [self addSubview:publishButton];
         
         self.publishButton = publishButton;
-        NSLog(@"%d",[self.publishButton isKindOfClass:[UIButton class]]);
         
     }
     return self;

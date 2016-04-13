@@ -22,8 +22,10 @@
 
 #define JKLogFunction JKLog(@"%s", __func__)
 
-#define XMGRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define LINKRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
-#define XMGGlobalBg XMGRGBColor(223, 223, 223)
+#define LINKGlobalBg LINKRGBColor(223, 223, 223)
+
+#define LINKScreenSize [UIScreen mainScreen].bounds.size
 
 #endif /* PrefixHeader_pch */

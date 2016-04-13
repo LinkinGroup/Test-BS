@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0661114951FCE14F4BCA3440 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A432AF002D007BF8A6513A /* libPods.a */; };
+		3B8BB9361CBCE735005DA7B7 /* LINKSubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9351CBCE735005DA7B7 /* LINKSubscribeViewController.m */; };
+		3B8BB9391CBCE935005DA7B7 /* LINKSubscribeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9381CBCE935005DA7B7 /* LINKSubscribeTag.m */; };
+		3B8BB93D1CBCEA02005DA7B7 /* LINKSubscribeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB93B1CBCEA02005DA7B7 /* LINKSubscribeCell.m */; };
+		3B8BB93E1CBCEA02005DA7B7 /* LINKSubscribeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B8BB93C1CBCEA02005DA7B7 /* LINKSubscribeCell.xib */; };
+		3BA8A7D51CBB4FB70073D3F0 /* LINKFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8A7D41CBB4FB70073D3F0 /* LINKFriendTrendsViewController.xib */; };
+		3BA8A7D91CBB6C190073D3F0 /* LINKRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8A7D71CBB6C190073D3F0 /* LINKRecommendViewController.m */; };
+		3BA8A7DA1CBB6C190073D3F0 /* LINKRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8A7D81CBB6C190073D3F0 /* LINKRecommendViewController.xib */; };
+		3BA8A7DC1CBB6DB20073D3F0 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8A7DB1CBB6DB20073D3F0 /* Foundation+Log.m */; };
+		3BA8A7DF1CBB9CD80073D3F0 /* LINKRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8A7DE1CBB9CD80073D3F0 /* LINKRecommendCategory.m */; };
+		3BA8A7E31CBBA2300073D3F0 /* LINKCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8A7E11CBBA2300073D3F0 /* LINKCategoryCell.m */; };
+		3BA8A7E41CBBA2300073D3F0 /* LINKCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8A7E21CBBA2300073D3F0 /* LINKCategoryCell.xib */; };
 		3BC970CF1CB7ABE4007461F4 /* LINKEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC970AA1CB7ABE4007461F4 /* LINKEssenceViewController.m */; };
 		3BC970D01CB7ABE4007461F4 /* LINKFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC970B01CB7ABE4007461F4 /* LINKFriendTrendsViewController.m */; };
 		3BC970D11CB7ABE4007461F4 /* LINKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC970B61CB7ABE4007461F4 /* LINKMeViewController.m */; };
@@ -18,6 +30,15 @@
 		3BC970D71CB7ABE4007461F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC970CA1CB7ABE4007461F4 /* main.m */; };
 		3BC970D81CB7ABE4007461F4 /* LINKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC970CE1CB7ABE4007461F4 /* LINKTabBar.m */; };
 		3BC9712A1CB8290D007461F4 /* LINKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC971291CB8290D007461F4 /* LINKNavigationController.m */; };
+		3BF13E0F1CBE032C00CB22A8 /* LINKLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF13E0D1CBE032C00CB22A8 /* LINKLoginRegisterViewController.m */; };
+		3BF13E101CBE032C00CB22A8 /* LINKLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF13E0E1CBE032C00CB22A8 /* LINKLoginRegisterViewController.xib */; };
+		3BF13E131CBE2E4100CB22A8 /* LINKVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF13E121CBE2E4100CB22A8 /* LINKVerticalButton.m */; };
+		3BF13E161CBE421100CB22A8 /* LINKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF13E151CBE421100CB22A8 /* LINKTextField.m */; };
+		3BF13E191CBE793600CB22A8 /* LINKGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF13E181CBE793600CB22A8 /* LINKGuideView.m */; };
+		3BF13E1B1CBE794500CB22A8 /* LINKGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF13E1A1CBE794500CB22A8 /* LINKGuideView.xib */; };
+		3BF5B7B51CBCA73700C604A9 /* LINKUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5B7B31CBCA73700C604A9 /* LINKUserCell.m */; };
+		3BF5B7B61CBCA73700C604A9 /* LINKUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF5B7B41CBCA73700C604A9 /* LINKUserCell.xib */; };
+		3BF5B7B91CBCA76B00C604A9 /* LINKRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5B7B81CBCA76B00C604A9 /* LINKRecommendUser.m */; };
 		3BF6C0191CB55408006486C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF6C0181CB55408006486C2 /* Assets.xcassets */; };
 		3BF6C0271CB55408006486C2 /* Test_BSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6C0261CB55408006486C2 /* Test_BSTests.m */; };
 		3BF6C0321CB55408006486C2 /* Test_BSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6C0311CB55408006486C2 /* Test_BSUITests.m */; };
@@ -41,6 +62,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A4D8BF9664B669C3CB615D8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		32A432AF002D007BF8A6513A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8BB9341CBCE735005DA7B7 /* LINKSubscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKSubscribeViewController.h; sourceTree = "<group>"; };
+		3B8BB9351CBCE735005DA7B7 /* LINKSubscribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKSubscribeViewController.m; sourceTree = "<group>"; };
+		3B8BB9371CBCE935005DA7B7 /* LINKSubscribeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKSubscribeTag.h; sourceTree = "<group>"; };
+		3B8BB9381CBCE935005DA7B7 /* LINKSubscribeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKSubscribeTag.m; sourceTree = "<group>"; };
+		3B8BB93A1CBCEA02005DA7B7 /* LINKSubscribeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKSubscribeCell.h; sourceTree = "<group>"; };
+		3B8BB93B1CBCEA02005DA7B7 /* LINKSubscribeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKSubscribeCell.m; sourceTree = "<group>"; };
+		3B8BB93C1CBCEA02005DA7B7 /* LINKSubscribeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LINKSubscribeCell.xib; sourceTree = "<group>"; };
+		3BA8A7D41CBB4FB70073D3F0 /* LINKFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LINKFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		3BA8A7D61CBB6C190073D3F0 /* LINKRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKRecommendViewController.h; sourceTree = "<group>"; };
+		3BA8A7D71CBB6C190073D3F0 /* LINKRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKRecommendViewController.m; sourceTree = "<group>"; };
+		3BA8A7D81CBB6C190073D3F0 /* LINKRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LINKRecommendViewController.xib; sourceTree = "<group>"; };
+		3BA8A7DB1CBB6DB20073D3F0 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		3BA8A7DD1CBB9CD80073D3F0 /* LINKRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKRecommendCategory.h; sourceTree = "<group>"; };
+		3BA8A7DE1CBB9CD80073D3F0 /* LINKRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKRecommendCategory.m; sourceTree = "<group>"; };
+		3BA8A7E01CBBA2300073D3F0 /* LINKCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKCategoryCell.h; sourceTree = "<group>"; };
+		3BA8A7E11CBBA2300073D3F0 /* LINKCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKCategoryCell.m; sourceTree = "<group>"; };
+		3BA8A7E21CBBA2300073D3F0 /* LINKCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LINKCategoryCell.xib; sourceTree = "<group>"; };
 		3BC970A91CB7ABE4007461F4 /* LINKEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKEssenceViewController.h; sourceTree = "<group>"; };
 		3BC970AA1CB7ABE4007461F4 /* LINKEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKEssenceViewController.m; sourceTree = "<group>"; };
 		3BC970AF1CB7ABE4007461F4 /* LINKFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -63,6 +103,21 @@
 		3BC970CE1CB7ABE4007461F4 /* LINKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKTabBar.m; sourceTree = "<group>"; };
 		3BC971281CB8290D007461F4 /* LINKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKNavigationController.h; sourceTree = "<group>"; };
 		3BC971291CB8290D007461F4 /* LINKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKNavigationController.m; sourceTree = "<group>"; };
+		3BF13E0C1CBE032C00CB22A8 /* LINKLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKLoginRegisterViewController.h; sourceTree = "<group>"; };
+		3BF13E0D1CBE032C00CB22A8 /* LINKLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKLoginRegisterViewController.m; sourceTree = "<group>"; };
+		3BF13E0E1CBE032C00CB22A8 /* LINKLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LINKLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		3BF13E111CBE2E4100CB22A8 /* LINKVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKVerticalButton.h; sourceTree = "<group>"; };
+		3BF13E121CBE2E4100CB22A8 /* LINKVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKVerticalButton.m; sourceTree = "<group>"; };
+		3BF13E141CBE421100CB22A8 /* LINKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKTextField.h; sourceTree = "<group>"; };
+		3BF13E151CBE421100CB22A8 /* LINKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKTextField.m; sourceTree = "<group>"; };
+		3BF13E171CBE793600CB22A8 /* LINKGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKGuideView.h; sourceTree = "<group>"; };
+		3BF13E181CBE793600CB22A8 /* LINKGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKGuideView.m; sourceTree = "<group>"; };
+		3BF13E1A1CBE794500CB22A8 /* LINKGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LINKGuideView.xib; sourceTree = "<group>"; };
+		3BF5B7B21CBCA73700C604A9 /* LINKUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKUserCell.h; sourceTree = "<group>"; };
+		3BF5B7B31CBCA73700C604A9 /* LINKUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKUserCell.m; sourceTree = "<group>"; };
+		3BF5B7B41CBCA73700C604A9 /* LINKUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LINKUserCell.xib; sourceTree = "<group>"; };
+		3BF5B7B71CBCA76B00C604A9 /* LINKRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKRecommendUser.h; sourceTree = "<group>"; };
+		3BF5B7B81CBCA76B00C604A9 /* LINKRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKRecommendUser.m; sourceTree = "<group>"; };
 		3BF6C0091CB55408006486C2 /* Test-BS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-BS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF6C0181CB55408006486C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BF6C01D1CB55408006486C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +127,7 @@
 		3BF6C02D1CB55408006486C2 /* Test-BSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-BSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF6C0311CB55408006486C2 /* Test_BSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_BSUITests.m; sourceTree = "<group>"; };
 		3BF6C0331CB55408006486C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662576229BA29C6391EC3FE0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0661114951FCE14F4BCA3440 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +183,8 @@
 			children = (
 				3BC970A91CB7ABE4007461F4 /* LINKEssenceViewController.h */,
 				3BC970AA1CB7ABE4007461F4 /* LINKEssenceViewController.m */,
+				3B8BB9341CBCE735005DA7B7 /* LINKSubscribeViewController.h */,
+				3B8BB9351CBCE735005DA7B7 /* LINKSubscribeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -133,6 +192,8 @@
 		3BC970AB1CB7ABE4007461F4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B8BB9371CBCE935005DA7B7 /* LINKSubscribeTag.h */,
+				3B8BB9381CBCE935005DA7B7 /* LINKSubscribeTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +201,9 @@
 		3BC970AC1CB7ABE4007461F4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3B8BB93A1CBCEA02005DA7B7 /* LINKSubscribeCell.h */,
+				3B8BB93B1CBCEA02005DA7B7 /* LINKSubscribeCell.m */,
+				3B8BB93C1CBCEA02005DA7B7 /* LINKSubscribeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,6 +223,13 @@
 			children = (
 				3BC970AF1CB7ABE4007461F4 /* LINKFriendTrendsViewController.h */,
 				3BC970B01CB7ABE4007461F4 /* LINKFriendTrendsViewController.m */,
+				3BA8A7D41CBB4FB70073D3F0 /* LINKFriendTrendsViewController.xib */,
+				3BA8A7D61CBB6C190073D3F0 /* LINKRecommendViewController.h */,
+				3BA8A7D71CBB6C190073D3F0 /* LINKRecommendViewController.m */,
+				3BA8A7D81CBB6C190073D3F0 /* LINKRecommendViewController.xib */,
+				3BF13E0C1CBE032C00CB22A8 /* LINKLoginRegisterViewController.h */,
+				3BF13E0D1CBE032C00CB22A8 /* LINKLoginRegisterViewController.m */,
+				3BF13E0E1CBE032C00CB22A8 /* LINKLoginRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,6 +237,10 @@
 		3BC970B11CB7ABE4007461F4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3BA8A7DD1CBB9CD80073D3F0 /* LINKRecommendCategory.h */,
+				3BA8A7DE1CBB9CD80073D3F0 /* LINKRecommendCategory.m */,
+				3BF5B7B71CBCA76B00C604A9 /* LINKRecommendUser.h */,
+				3BF5B7B81CBCA76B00C604A9 /* LINKRecommendUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +248,16 @@
 		3BC970B21CB7ABE4007461F4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3BA8A7E01CBBA2300073D3F0 /* LINKCategoryCell.h */,
+				3BA8A7E11CBBA2300073D3F0 /* LINKCategoryCell.m */,
+				3BA8A7E21CBBA2300073D3F0 /* LINKCategoryCell.xib */,
+				3BF5B7B21CBCA73700C604A9 /* LINKUserCell.h */,
+				3BF5B7B31CBCA73700C604A9 /* LINKUserCell.m */,
+				3BF5B7B41CBCA73700C604A9 /* LINKUserCell.xib */,
+				3BF13E111CBE2E4100CB22A8 /* LINKVerticalButton.h */,
+				3BF13E121CBE2E4100CB22A8 /* LINKVerticalButton.m */,
+				3BF13E141CBE421100CB22A8 /* LINKTextField.h */,
+				3BF13E151CBE421100CB22A8 /* LINKTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,6 +344,7 @@
 		3BC970C21CB7ABE4007461F4 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3BA8A7DB1CBB6DB20073D3F0 /* Foundation+Log.m */,
 				3BC970CC1CB7ABE4007461F4 /* View */,
 				3BC970C31CB7ABE4007461F4 /* UIBarButtonItem+LINKExtension.h */,
 				3BC970C41CB7ABE4007461F4 /* UIBarButtonItem+LINKExtension.m */,
@@ -284,6 +370,9 @@
 			children = (
 				3BC970CD1CB7ABE4007461F4 /* LINKTabBar.h */,
 				3BC970CE1CB7ABE4007461F4 /* LINKTabBar.m */,
+				3BF13E171CBE793600CB22A8 /* LINKGuideView.h */,
+				3BF13E181CBE793600CB22A8 /* LINKGuideView.m */,
+				3BF13E1A1CBE794500CB22A8 /* LINKGuideView.xib */,
 			);
 			name = View;
 			path = ../View;
@@ -296,6 +385,8 @@
 				3BF6C0251CB55408006486C2 /* Test-BSTests */,
 				3BF6C0301CB55408006486C2 /* Test-BSUITests */,
 				3BF6C00A1CB55408006486C2 /* Products */,
+				3FB991161A804891197B2E84 /* Pods */,
+				5E6D38B03B6D3C7123D70785 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -345,6 +436,23 @@
 			path = "Test-BSUITests";
 			sourceTree = "<group>";
 		};
+		3FB991161A804891197B2E84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				662576229BA29C6391EC3FE0 /* Pods.debug.xcconfig */,
+				2A4D8BF9664B669C3CB615D8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E6D38B03B6D3C7123D70785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32A432AF002D007BF8A6513A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -352,9 +460,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BF6C0361CB55408006486C2 /* Build configuration list for PBXNativeTarget "Test-BS" */;
 			buildPhases = (
+				F87310E359AFDF4ADD3DE4E1 /* Check Pods Manifest.lock */,
 				3BF6C0051CB55408006486C2 /* Sources */,
 				3BF6C0061CB55408006486C2 /* Frameworks */,
 				3BF6C0071CB55408006486C2 /* Resources */,
+				955BE3146736B80A983AC0C5 /* Embed Pods Frameworks */,
+				D30357482605AAD02B9B16F3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -452,6 +563,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA8A7DA1CBB6C190073D3F0 /* LINKRecommendViewController.xib in Resources */,
+				3BF13E1B1CBE794500CB22A8 /* LINKGuideView.xib in Resources */,
+				3BA8A7E41CBBA2300073D3F0 /* LINKCategoryCell.xib in Resources */,
+				3B8BB93E1CBCEA02005DA7B7 /* LINKSubscribeCell.xib in Resources */,
+				3BF5B7B61CBCA73700C604A9 /* LINKUserCell.xib in Resources */,
+				3BA8A7D51CBB4FB70073D3F0 /* LINKFriendTrendsViewController.xib in Resources */,
+				3BF13E101CBE032C00CB22A8 /* LINKLoginRegisterViewController.xib in Resources */,
 				3BF6C0191CB55408006486C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +590,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		955BE3146736B80A983AC0C5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30357482605AAD02B9B16F3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87310E359AFDF4ADD3DE4E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BF6C0051CB55408006486C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -480,12 +646,25 @@
 				3BC970D41CB7ABE4007461F4 /* UIBarButtonItem+LINKExtension.m in Sources */,
 				3BC970D01CB7ABE4007461F4 /* LINKFriendTrendsViewController.m in Sources */,
 				3BC970D21CB7ABE4007461F4 /* LINKNewViewController.m in Sources */,
+				3BF13E131CBE2E4100CB22A8 /* LINKVerticalButton.m in Sources */,
 				3BC970D11CB7ABE4007461F4 /* LINKMeViewController.m in Sources */,
+				3BA8A7DF1CBB9CD80073D3F0 /* LINKRecommendCategory.m in Sources */,
+				3BF13E161CBE421100CB22A8 /* LINKTextField.m in Sources */,
+				3BF13E0F1CBE032C00CB22A8 /* LINKLoginRegisterViewController.m in Sources */,
 				3BC970D51CB7ABE4007461F4 /* UIView+LINKExtension.m in Sources */,
+				3BF5B7B51CBCA73700C604A9 /* LINKUserCell.m in Sources */,
 				3BC970D81CB7ABE4007461F4 /* LINKTabBar.m in Sources */,
+				3B8BB9391CBCE935005DA7B7 /* LINKSubscribeTag.m in Sources */,
 				3BC9712A1CB8290D007461F4 /* LINKNavigationController.m in Sources */,
+				3B8BB93D1CBCEA02005DA7B7 /* LINKSubscribeCell.m in Sources */,
+				3BA8A7D91CBB6C190073D3F0 /* LINKRecommendViewController.m in Sources */,
 				3BC970CF1CB7ABE4007461F4 /* LINKEssenceViewController.m in Sources */,
 				3BC970D31CB7ABE4007461F4 /* AppDelegate.m in Sources */,
+				3BF13E191CBE793600CB22A8 /* LINKGuideView.m in Sources */,
+				3BF5B7B91CBCA76B00C604A9 /* LINKRecommendUser.m in Sources */,
+				3BA8A7DC1CBB6DB20073D3F0 /* Foundation+Log.m in Sources */,
+				3BA8A7E31CBBA2300073D3F0 /* LINKCategoryCell.m in Sources */,
+				3B8BB9361CBCE735005DA7B7 /* LINKSubscribeViewController.m in Sources */,
 				3BC970D71CB7ABE4007461F4 /* main.m in Sources */,
 				3BC970D61CB7ABE4007461F4 /* LINKTabBarController.m in Sources */,
 			);
@@ -607,12 +786,13 @@
 		};
 		3BF6C0371CB55408006486C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662576229BA29C6391EC3FE0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PREFIX_HEADER = "Test-BS/Classes/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = "Test-BS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LinkinGroup.Test-BS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -621,12 +801,13 @@
 		};
 		3BF6C0381CB55408006486C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4D8BF9664B669C3CB615D8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PREFIX_HEADER = "Test-BS/Classes/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = "Test-BS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LinkinGroup.Test-BS";
 				PRODUCT_NAME = "$(TARGET_NAME)";

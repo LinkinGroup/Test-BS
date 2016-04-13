@@ -21,7 +21,7 @@
 //    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highLightedImage:@"MainTagSubIconClick" target:self action:@selector(menuClick)];
     
     // 设置背景色
-    self.view.backgroundColor = XMGGlobalBg;
+    self.view.backgroundColor = LINKGlobalBg;
 }
 
 @end
