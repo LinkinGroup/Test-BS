@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0661114951FCE14F4BCA3440 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A432AF002D007BF8A6513A /* libPods.a */; };
+		3B31DC751CBEBC260034C8D7 /* LINKSTPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B31DC741CBEBC260034C8D7 /* LINKSTPopViewController.m */; };
 		3B8BB9361CBCE735005DA7B7 /* LINKSubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9351CBCE735005DA7B7 /* LINKSubscribeViewController.m */; };
 		3B8BB9391CBCE935005DA7B7 /* LINKSubscribeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9381CBCE935005DA7B7 /* LINKSubscribeTag.m */; };
 		3B8BB93D1CBCEA02005DA7B7 /* LINKSubscribeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB93B1CBCEA02005DA7B7 /* LINKSubscribeCell.m */; };
@@ -19,6 +20,11 @@
 		3BA8A7DF1CBB9CD80073D3F0 /* LINKRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8A7DE1CBB9CD80073D3F0 /* LINKRecommendCategory.m */; };
 		3BA8A7E31CBBA2300073D3F0 /* LINKCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8A7E11CBBA2300073D3F0 /* LINKCategoryCell.m */; };
 		3BA8A7E41CBBA2300073D3F0 /* LINKCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8A7E21CBBA2300073D3F0 /* LINKCategoryCell.xib */; };
+		3BB222BE1CBF6C0A00FBCF3A /* LINKAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB222BD1CBF6C0A00FBCF3A /* LINKAllViewController.m */; };
+		3BB222C11CBF6C1D00FBCF3A /* LINKVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB222C01CBF6C1D00FBCF3A /* LINKVideoViewController.m */; };
+		3BB222C41CBF6C2900FBCF3A /* LINKVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB222C31CBF6C2900FBCF3A /* LINKVoiceViewController.m */; };
+		3BB222C71CBF6C3D00FBCF3A /* LINKPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB222C61CBF6C3D00FBCF3A /* LINKPictureViewController.m */; };
+		3BB222CA1CBF6C5300FBCF3A /* LINKPassageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB222C91CBF6C5300FBCF3A /* LINKPassageViewController.m */; };
 		3BC970CF1CB7ABE4007461F4 /* LINKEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC970AA1CB7ABE4007461F4 /* LINKEssenceViewController.m */; };
 		3BC970D01CB7ABE4007461F4 /* LINKFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC970B01CB7ABE4007461F4 /* LINKFriendTrendsViewController.m */; };
 		3BC970D11CB7ABE4007461F4 /* LINKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC970B61CB7ABE4007461F4 /* LINKMeViewController.m */; };
@@ -64,6 +70,8 @@
 /* Begin PBXFileReference section */
 		2A4D8BF9664B669C3CB615D8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		32A432AF002D007BF8A6513A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B31DC731CBEBC260034C8D7 /* LINKSTPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKSTPopViewController.h; sourceTree = "<group>"; };
+		3B31DC741CBEBC260034C8D7 /* LINKSTPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKSTPopViewController.m; sourceTree = "<group>"; };
 		3B8BB9341CBCE735005DA7B7 /* LINKSubscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKSubscribeViewController.h; sourceTree = "<group>"; };
 		3B8BB9351CBCE735005DA7B7 /* LINKSubscribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKSubscribeViewController.m; sourceTree = "<group>"; };
 		3B8BB9371CBCE935005DA7B7 /* LINKSubscribeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKSubscribeTag.h; sourceTree = "<group>"; };
@@ -81,6 +89,16 @@
 		3BA8A7E01CBBA2300073D3F0 /* LINKCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKCategoryCell.h; sourceTree = "<group>"; };
 		3BA8A7E11CBBA2300073D3F0 /* LINKCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKCategoryCell.m; sourceTree = "<group>"; };
 		3BA8A7E21CBBA2300073D3F0 /* LINKCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LINKCategoryCell.xib; sourceTree = "<group>"; };
+		3BB222BC1CBF6C0A00FBCF3A /* LINKAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKAllViewController.h; sourceTree = "<group>"; };
+		3BB222BD1CBF6C0A00FBCF3A /* LINKAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKAllViewController.m; sourceTree = "<group>"; };
+		3BB222BF1CBF6C1D00FBCF3A /* LINKVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKVideoViewController.h; sourceTree = "<group>"; };
+		3BB222C01CBF6C1D00FBCF3A /* LINKVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKVideoViewController.m; sourceTree = "<group>"; };
+		3BB222C21CBF6C2900FBCF3A /* LINKVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKVoiceViewController.h; sourceTree = "<group>"; };
+		3BB222C31CBF6C2900FBCF3A /* LINKVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKVoiceViewController.m; sourceTree = "<group>"; };
+		3BB222C51CBF6C3D00FBCF3A /* LINKPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKPictureViewController.h; sourceTree = "<group>"; };
+		3BB222C61CBF6C3D00FBCF3A /* LINKPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKPictureViewController.m; sourceTree = "<group>"; };
+		3BB222C81CBF6C5300FBCF3A /* LINKPassageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKPassageViewController.h; sourceTree = "<group>"; };
+		3BB222C91CBF6C5300FBCF3A /* LINKPassageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKPassageViewController.m; sourceTree = "<group>"; };
 		3BC970A91CB7ABE4007461F4 /* LINKEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKEssenceViewController.h; sourceTree = "<group>"; };
 		3BC970AA1CB7ABE4007461F4 /* LINKEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINKEssenceViewController.m; sourceTree = "<group>"; };
 		3BC970AF1CB7ABE4007461F4 /* LINKFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINKFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -185,6 +203,16 @@
 				3BC970AA1CB7ABE4007461F4 /* LINKEssenceViewController.m */,
 				3B8BB9341CBCE735005DA7B7 /* LINKSubscribeViewController.h */,
 				3B8BB9351CBCE735005DA7B7 /* LINKSubscribeViewController.m */,
+				3BB222BC1CBF6C0A00FBCF3A /* LINKAllViewController.h */,
+				3BB222BD1CBF6C0A00FBCF3A /* LINKAllViewController.m */,
+				3BB222BF1CBF6C1D00FBCF3A /* LINKVideoViewController.h */,
+				3BB222C01CBF6C1D00FBCF3A /* LINKVideoViewController.m */,
+				3BB222C21CBF6C2900FBCF3A /* LINKVoiceViewController.h */,
+				3BB222C31CBF6C2900FBCF3A /* LINKVoiceViewController.m */,
+				3BB222C51CBF6C3D00FBCF3A /* LINKPictureViewController.h */,
+				3BB222C61CBF6C3D00FBCF3A /* LINKPictureViewController.m */,
+				3BB222C81CBF6C5300FBCF3A /* LINKPassageViewController.h */,
+				3BB222C91CBF6C5300FBCF3A /* LINKPassageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -277,6 +305,8 @@
 			children = (
 				3BC970B51CB7ABE4007461F4 /* LINKMeViewController.h */,
 				3BC970B61CB7ABE4007461F4 /* LINKMeViewController.m */,
+				3B31DC731CBEBC260034C8D7 /* LINKSTPopViewController.h */,
+				3B31DC741CBEBC260034C8D7 /* LINKSTPopViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -646,20 +676,26 @@
 				3BC970D41CB7ABE4007461F4 /* UIBarButtonItem+LINKExtension.m in Sources */,
 				3BC970D01CB7ABE4007461F4 /* LINKFriendTrendsViewController.m in Sources */,
 				3BC970D21CB7ABE4007461F4 /* LINKNewViewController.m in Sources */,
+				3BB222C71CBF6C3D00FBCF3A /* LINKPictureViewController.m in Sources */,
 				3BF13E131CBE2E4100CB22A8 /* LINKVerticalButton.m in Sources */,
 				3BC970D11CB7ABE4007461F4 /* LINKMeViewController.m in Sources */,
 				3BA8A7DF1CBB9CD80073D3F0 /* LINKRecommendCategory.m in Sources */,
+				3BB222C11CBF6C1D00FBCF3A /* LINKVideoViewController.m in Sources */,
 				3BF13E161CBE421100CB22A8 /* LINKTextField.m in Sources */,
 				3BF13E0F1CBE032C00CB22A8 /* LINKLoginRegisterViewController.m in Sources */,
 				3BC970D51CB7ABE4007461F4 /* UIView+LINKExtension.m in Sources */,
 				3BF5B7B51CBCA73700C604A9 /* LINKUserCell.m in Sources */,
 				3BC970D81CB7ABE4007461F4 /* LINKTabBar.m in Sources */,
+				3B31DC751CBEBC260034C8D7 /* LINKSTPopViewController.m in Sources */,
 				3B8BB9391CBCE935005DA7B7 /* LINKSubscribeTag.m in Sources */,
 				3BC9712A1CB8290D007461F4 /* LINKNavigationController.m in Sources */,
 				3B8BB93D1CBCEA02005DA7B7 /* LINKSubscribeCell.m in Sources */,
+				3BB222CA1CBF6C5300FBCF3A /* LINKPassageViewController.m in Sources */,
 				3BA8A7D91CBB6C190073D3F0 /* LINKRecommendViewController.m in Sources */,
 				3BC970CF1CB7ABE4007461F4 /* LINKEssenceViewController.m in Sources */,
 				3BC970D31CB7ABE4007461F4 /* AppDelegate.m in Sources */,
+				3BB222C41CBF6C2900FBCF3A /* LINKVoiceViewController.m in Sources */,
+				3BB222BE1CBF6C0A00FBCF3A /* LINKAllViewController.m in Sources */,
 				3BF13E191CBE793600CB22A8 /* LINKGuideView.m in Sources */,
 				3BF5B7B91CBCA76B00C604A9 /* LINKRecommendUser.m in Sources */,
 				3BA8A7DC1CBB6DB20073D3F0 /* Foundation+Log.m in Sources */,

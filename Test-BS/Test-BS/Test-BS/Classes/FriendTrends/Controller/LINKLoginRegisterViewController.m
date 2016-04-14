@@ -7,6 +7,7 @@
 //
 
 #import "LINKLoginRegisterViewController.h"
+#import <STPopup/STPopup.h>
 
 @interface LINKLoginRegisterViewController ()
 
@@ -15,6 +16,26 @@
 @end
 
 @implementation LINKLoginRegisterViewController
+
+- (instancetype)init
+{
+    if (self = [super init]) {
+        self.title = @"View Controller";
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Next" style:UIBarButtonItemStylePlain target:self action:@selector(nextBtnDidTap)];
+        //        self.contentSizeInPopup = [UIScreen mainScreen].bounds.size;
+        self.contentSizeInPopup = CGSizeMake(300, 570);
+        self.landscapeContentSizeInPopup = CGSizeMake(200,200);
+        
+        [[UIBarButtonItem appearanceWhenContainedIn:[STPopupNavigationBar class], nil] setTitleTextAttributes:@{ NSFontAttributeName:[UIFont fontWithName:@"Cochin" size:17] } forState:UIControlStateNormal];
+        
+    }
+    return self;
+}
+
+- (void)nextBtnDidTap
+{
+    
+}
 
 - (IBAction)cancleClick:(id)sender {
     

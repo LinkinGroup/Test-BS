@@ -17,6 +17,8 @@
     UINavigationBar *bar = [UINavigationBar appearance];
     
     [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:(UIBarMetricsDefault)];
+//    [bar setBackgroundColor:[UIColor colorWithRed:0.20 green:0.60 blue:0.86 alpha:1.0]];
+
 
 }
 

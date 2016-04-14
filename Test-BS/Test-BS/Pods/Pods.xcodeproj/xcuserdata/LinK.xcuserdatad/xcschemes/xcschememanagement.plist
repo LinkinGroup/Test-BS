@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LNPopupController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>STPopup.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,7 +52,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>36E819FA1FD3723A7C9A461C8183265E</key>
+		<key>708E216B8F526DC56C6BCF54EAA08D68</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,22 +67,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9671CBCEAF6808A7BA0CFAFB47628CD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9EAB3E42EF957541E6C3C76D35FD008E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A0D253F84CEE83B967A1369CB20218B1</key>
+		<key>B338C3D3F0E3AC7504F4455CBF66C3E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D83A667B9F84A4571457EFA6C0A073B8</key>
+		<key>C9AEB2113AF80177ADF315CC64E67932</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>F6369DCF9EF8959EE460063E1C27CF48</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAF979B5C228DDE5CB56DCE1689F86FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

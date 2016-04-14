@@ -7,6 +7,10 @@
 //
 
 #import "LINKMeViewController.h"
+#import "LINKSTPopViewController.h"
+#import <STPopup.h>
+#import "LINKLoginRegisterViewController.h"
+
 
 @implementation LINKMeViewController
 
@@ -33,7 +37,17 @@
 
 - (void)settingClick
 {
-    JKLogFunction;
+    LINKLoginRegisterViewController *logVc = [[LINKLoginRegisterViewController alloc] init];
+    STPopupController *popupController = [[STPopupController alloc] initWithRootViewController:logVc];
+
+    
+//    STPopupController *popupController = [[STPopupController alloc] initWithRootViewController:[LINKSTPopViewController new]];
+    
+//    STPopupNavigationBar *bar = [STPopupNavigationBar appearance];
+//    
+//    [bar setBackgroundColor:[UIColor colorWithRed:0.20 green:0.60 blue:0.86 alpha:1.0]];
+    
+    [popupController presentInViewController:self];
 }
 
 - (void)moonClick
