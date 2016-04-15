@@ -1,1 +1,0 @@
-../../../LNPopupController/Pod/LNPopupController/LNPopupController/Private/LNPopupItem+Private.h
